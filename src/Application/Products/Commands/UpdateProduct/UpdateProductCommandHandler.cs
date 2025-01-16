@@ -33,8 +33,6 @@ namespace Northwind.Application.Products.Commands.UpdateProduct
             entity.Discontinued = request.Discontinued;
 
             await _context.SaveChangesAsync(cancellationToken);
-
-            return Unit.Value;
         }
     }
 }
