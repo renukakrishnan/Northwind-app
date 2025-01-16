@@ -1,4 +1,4 @@
-﻿using System.Threading;
+using System.Threading;
 using System.Threading.Tasks;
 using MediatR;
 using Northwind.Application.Common.Exceptions;
@@ -7,16 +7,16 @@ using Northwind.Domain.Entities;
 
 namespace Northwind.Application.Products.Commands.UpdateProduct
 {
-    public class UpdateProductCommandHandler : IRequestHandler<UpdateProductCommand>
+public class UpdateProductCommandHandler : IRequestHandler<UpdateProductCommand, Unit>
+{
+    private readonly INorthwindDbContext _context;
+
+    public UpdateProductCommandHandler(INorthwindDbContext context)
     {
-        private readonly INorthwindDbContext _context;
+        _context = context;
+    }
 
-        public UpdateProductCommandHandler(INorthwindDbContext context)
-        {
-            _context = context;
-        }
-
-        public async Task<Unit> Handle(UpdateProductCommand request, CancellationToken cancellationToken)
+    public async Task<Unit> Handle(UpdateProductCommand request, CancellationToken cancellationToken)
         {
             var entity = await _context.Products.FindAsync(request.ProductId);
 
