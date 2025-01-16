@@ -1,4 +1,4 @@
-﻿using System.Threading;
+using System.Threading;
 using System.Threading.Tasks;
 using MediatR;
 using Northwind.Application.Common.Exceptions;
@@ -7,7 +7,7 @@ using Northwind.Domain.Entities;
 
 namespace Northwind.Application.Products.Commands.UpdateProduct
 {
-    public class UpdateProductCommandHandler : IRequestHandler<UpdateProductCommand>
+    public class UpdateProductCommandHandler : IRequestHandler<UpdateProductCommand, Unit>
     {
         private readonly INorthwindDbContext _context;
 
