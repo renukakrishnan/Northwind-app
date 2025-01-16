@@ -1,4 +1,4 @@
-using MediatR;
+﻿using MediatR;
 using Northwind.Application.Common.Exceptions;
 using Northwind.Application.Common.Interfaces;
 using Northwind.Domain.Entities;
@@ -11,7 +11,7 @@ namespace Northwind.Application.Categories.Commands.DeleteCategory
     {
         public int Id { get; set; }
 
-        public class DeleteCategoryCommandHandler : IRequestHandler<DeleteCategoryCommand, Unit>
+        public class DeleteCategoryCommandHandler : IRequestHandler<DeleteCategoryCommand>
         {
             private readonly INorthwindDbContext _context;
 
@@ -20,7 +20,7 @@ namespace Northwind.Application.Categories.Commands.DeleteCategory
                 _context = context;
             }
 
-            public async Task Handle(DeleteCategoryCommand request, CancellationToken cancellationToken)
+            public async Task<Unit> Handle(DeleteCategoryCommand request, CancellationToken cancellationToken)
             {
                 var entity = await _context.Categories
                     .FindAsync(request.Id);
