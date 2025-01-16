@@ -1,0 +1,883 @@
+==========
+References
+==========
+Northwind.Common
+System
+project.all
+Northwind.Domain.Common
+System.Collections.Generic
+System.Collections
+System.Linq
+Northwind.Domain.Entities
+Northwind.Domain.Exceptions
+Northwind.Domain.ValueObjects
+Northwind.Application.Categories.Commands.DeleteCategory
+MediatR
+Northwind.Application.Common.Interfaces
+System.Threading
+Microsoft.EntityFrameworkCore
+Northwind.Application.Common.Exceptions
+Northwind.Application.Categories.Commands.UpsertCategory
+Northwind.Application.Categories.Queries.GetCategoriesList
+AutoMapper
+AutoMapper.QueryableExtensions
+Northwind.Application.Common.Behaviours
+Microsoft.Extensions.Logging
+System.Threading.Tasks
+System.Reflection
+System.Diagnostics
+FluentValidation
+FluentValidation.Results
+Northwind.Application.Products.Queries.GetProductsFile
+Northwind.Application.Notifications.Models
+Northwind.Application.Common.Models
+Northwind.Application.Common.Mappings
+Northwind.Application.Customers.Commands.CreateCustomer
+Northwind.Application.Customers.Commands.DeleteCustomer
+Northwind.Application.Customers.Commands.UpdateCustomer
+Northwind.Application.Customers.Queries.GetCustomerDetail
+Northwind.Application.Customers.Queries.GetCustomersList
+Northwind.Application
+Microsoft.Extensions.DependencyInjection
+Northwind.Application.Employees.Commands.DeleteEmployee
+Northwind.Application.Employees.Commands.UpsertEmployee
+Northwind.Application.Employees.Queries.GetEmployeeDetail
+Northwind.Application.Employees.Queries.GetEmployeesList
+Northwind.Application.Orders.Queries.GetOrderList
+Northwind.Application.Products.Commands.CreateProduct
+Northwind.Application.Products.Commands.DeleteProduct
+Northwind.Application.Products.Commands.UpdateProduct
+Northwind.Application.Products.Queries.GetProductDetail
+Northwind.Application.Products.Queries.GetProductsList
+Northwind.Persistence
+Northwind.Application.System.Commands.SeedSampleData
+MediatR.Pipeline
+Northwind.Application.Common.Exceptions.ValidationException
+FluentValidation.Validators
+Northwind.Infrastructure
+Duende.IdentityServer.EntityFramework.Options
+Microsoft.AspNetCore.Identity
+System.Formats.Asn1
+Microsoft.Extensions.Configuration
+Microsoft.AspNetCore.Hosting
+Northwind.Infrastructure.Files
+Microsoft.Data.SqlClient
+System.Data.Common
+Microsoft.Extensions.Hosting
+System.Collections.ObjectModel
+Microsoft.AspNetCore.ApiAuthorization.IdentityServer
+Duende.IdentityServer.Models
+Duende.IdentityServer.Test
+System.Security.Claims
+IdentityModel
+Microsoft.AspNetCore.Authentication
+System.IO
+CsvHelper
+System.Globalization
+Northwind.Infrastructure.Migrations
+Microsoft.EntityFrameworkCore.Migrations
+<global namespace>
+Microsoft.EntityFrameworkCore.Migrations.Operations.Builders
+Microsoft.EntityFrameworkCore.Infrastructure
+Microsoft.EntityFrameworkCore.Metadata.Builders
+Microsoft.Extensions.Options
+System.Formats.Asn1.AsnWriter
+Microsoft.EntityFrameworkCore.Design
+Microsoft.EntityFrameworkCore.Metadata
+Microsoft.EntityFrameworkCore.Storage.ValueConversion
+Northwind.Persistence.Configurations
+Northwind.Persistence.Migrations
+Microsoft.EntityFrameworkCore.ChangeTracking
+Northwind.WebUI.Areas.Identity
+Northwind.WebUI.Areas.Identity.Pages.Account
+Microsoft.AspNetCore.Authorization
+Microsoft.AspNetCore.Mvc.RazorPages
+Microsoft.AspNetCore.Identity.UI.Services
+Microsoft.AspNetCore.Mvc
+System.ComponentModel.DataAnnotations
+Microsoft.AspNetCore.Mvc.ModelBinding
+Microsoft.AspNetCore.Http
+System.Text.Encodings.Web
+Microsoft.AspNetCore.WebUtilities
+System.Text
+Northwind.WebUI.Common
+System.Net
+Newtonsoft.Json
+Microsoft.AspNetCore.Builder
+Northwind.WebUI.Controllers
+Northwind.WebUI.Pages
+Northwind.WebUI
+Microsoft.AspNetCore
+Northwind.WebUI.Services
+FluentValidation.AspNetCore
+OpenTelemetry.Resources
+System.Diagnostics.Metrics
+OpenTelemetry
+OpenTelemetry.Metrics
+OpenTelemetry.Exporter
+OpenTelemetry.Trace
+OpenTelemetry.Contrib.Extensions.AWSXRay.Trace
+Microsoft.AspNetCore.SpaServices.StaticFiles
+Microsoft.OpenApi.Models
+Microsoft.AspNetCore.SpaServices
+Microsoft.AspNetCore.StaticFiles.Infrastructure
+Microsoft.AspNetCore.Identity.UI
+OpenTelemetry.Instrumentation.Runtime
+OpenTelemetry.Exporter.Prometheus
+Northwind.Application.UnitTests.Common
+Xunit
+Northwind.Application.UnitTests.Customers.Commands.CreateCustomer
+Moq
+Northwind.Application.UnitTests.Customers.Commands.DeleteCustomer
+Northwind.Application.UnitTests.Customers.Queries
+Shouldly
+NorthwindTraders.Application.UnitTests.Infrastructure
+Northwind.Application.UnitTests.Mappings
+Northwind.Domain.UnitTests.Common
+Northwind.Domain.UnitTests.ValueObjects
+Northwind.WebUI.IntegrationTests.Common
+System.Net.Http
+Microsoft.AspNetCore.Mvc.Testing
+IdentityModel.Client
+Northwind.WebUI.IntegrationTests.Controllers.Categories
+Northwind.WebUI.IntegrationTests.Controllers.Customers
+Northwind.WebUI.IntegrationTests.Controllers.Products
+System.Net.Mime
+Persistence.IntegrationTests
+Moq.Language
+
+===============
+DownloadedFiles
+===============
+system.net.http.json
+project.all.json
+
+==============
+ProjectResults
+==============
+----------------------
+Showing results for: /tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/sourceCode/src/Common/Common.csproj
+----------------------
+---------------------------
+Target Versions:
+---------------------------
+net8.0
+---------------------------
+Source Versions:
+---------------------------
+net48
+---------------------------
+Upgrade packages:
+---------------------------
+Swashbuckle.AspNetCore.SwaggerUI,->6.9.0
+---------------------------
+Action packages:
+---------------------------
+---------------------------
+Executed Actions for file: Project
+---------------------------
+
+Action Type: ProjectFile
+Action Name: MigrateProjectFile
+Action Value: 
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+
+----------------------
+Showing results for: /tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/sourceCode/src/Tests/Domain.UnitTests/Domain.UnitTests.csproj
+----------------------
+---------------------------
+Target Versions:
+---------------------------
+net8.0
+---------------------------
+Source Versions:
+---------------------------
+net48
+---------------------------
+Upgrade packages:
+---------------------------
+Swashbuckle.AspNetCore.SwaggerUI,->6.9.0
+xunit,->2.4.2
+xunit.runner.visualstudio,->2.8.2
+Microsoft.NET.Test.Sdk,->17.11.1
+---------------------------
+Action packages:
+---------------------------
+---------------------------
+Executed Actions for file: Project
+---------------------------
+
+Action Type: ProjectFile
+Action Name: MigrateProjectFile
+Action Value: 
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+
+----------------------
+Showing results for: /tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/sourceCode/src/Domain/Domain.csproj
+----------------------
+---------------------------
+Target Versions:
+---------------------------
+net8.0
+---------------------------
+Source Versions:
+---------------------------
+net48
+---------------------------
+Upgrade packages:
+---------------------------
+Swashbuckle.AspNetCore.SwaggerUI,->6.9.0
+---------------------------
+Action packages:
+---------------------------
+---------------------------
+Executed Actions for file: Project
+---------------------------
+
+Action Type: ProjectFile
+Action Name: MigrateProjectFile
+Action Value: 
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+
+----------------------
+Showing results for: /tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/sourceCode/src/Tests/Persistence.IntegrationTests/Persistence.IntegrationTests.csproj
+----------------------
+---------------------------
+Target Versions:
+---------------------------
+net8.0
+---------------------------
+Source Versions:
+---------------------------
+net48
+---------------------------
+Upgrade packages:
+---------------------------
+Swashbuckle.AspNetCore.SwaggerUI,->6.9.0
+xunit,->2.4.2
+Microsoft.EntityFrameworkCore.InMemory,->8.0.8
+xunit.runner.visualstudio,->2.8.2
+Moq,->4.20.72
+Microsoft.NET.Test.Sdk,->17.11.1
+Shouldly,->4.2.1
+coverlet.collector,->6.0.2
+---------------------------
+Action packages:
+---------------------------
+---------------------------
+Executed Actions for file: Project
+---------------------------
+
+Action Type: ProjectFile
+Action Name: MigrateProjectFile
+Action Value: 
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+
+----------------------
+Showing results for: /tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/sourceCode/src/Tests/Application.UnitTests/Application.UnitTests.csproj
+----------------------
+---------------------------
+Target Versions:
+---------------------------
+net8.0
+---------------------------
+Source Versions:
+---------------------------
+net48
+---------------------------
+Upgrade packages:
+---------------------------
+Swashbuckle.AspNetCore.SwaggerUI,->6.9.0
+xunit,->2.4.2
+Microsoft.EntityFrameworkCore.InMemory,->8.0.8
+xunit.runner.visualstudio,->2.8.2
+Moq,->4.20.72
+Microsoft.NET.Test.Sdk,->17.11.1
+Shouldly,->4.2.1
+---------------------------
+Action packages:
+---------------------------
+---------------------------
+Executed Actions for file: Project
+---------------------------
+
+Action Type: ProjectFile
+Action Name: MigrateProjectFile
+Action Value: 
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+
+----------------------
+Showing results for: /tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/sourceCode/src/Tests/WebUI.IntegrationTests/WebUI.IntegrationTests.csproj
+----------------------
+---------------------------
+Target Versions:
+---------------------------
+net8.0
+---------------------------
+Source Versions:
+---------------------------
+net48
+---------------------------
+Upgrade packages:
+---------------------------
+Swashbuckle.AspNetCore.SwaggerUI,->6.9.0
+xunit,->2.4.2
+Microsoft.EntityFrameworkCore.InMemory,->8.0.8
+xunit.runner.visualstudio,->2.8.2
+Microsoft.NET.Test.Sdk,->17.11.1
+Microsoft.AspNetCore.Mvc.Testing,->8.0.8
+---------------------------
+Action packages:
+---------------------------
+---------------------------
+Executed Actions for file: Project
+---------------------------
+
+Action Type: ProjectFile
+Action Name: MigrateProjectFile
+Action Value: 
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+
+----------------------
+Showing results for: /tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/sourceCode/src/Infrastructure/Infrastructure.csproj
+----------------------
+---------------------------
+Target Versions:
+---------------------------
+net8.0
+---------------------------
+Source Versions:
+---------------------------
+net48
+---------------------------
+Upgrade packages:
+---------------------------
+Swashbuckle.AspNetCore.SwaggerUI,->6.9.0
+Microsoft.AspNetCore.ApiAuthorization.IdentityServer,->7.0.20
+CsvHelper,->33.0.1
+Microsoft.AspNetCore.Identity.EntityFrameworkCore,->8.0.8
+Microsoft.EntityFrameworkCore.Design,->8.0.8
+Microsoft.EntityFrameworkCore.SqlServer,->8.0.8
+---------------------------
+Action packages:
+---------------------------
+---------------------------
+Executed Actions for file: Project
+---------------------------
+
+Action Type: ProjectFile
+Action Name: MigrateProjectFile
+Action Value: 
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+
+----------------------
+Showing results for: /tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/sourceCode/src/WebUI/WebUI.csproj
+----------------------
+---------------------------
+Target Versions:
+---------------------------
+net8.0
+---------------------------
+Source Versions:
+---------------------------
+net48
+---------------------------
+Upgrade packages:
+---------------------------
+OpenTelemetry.Exporter.OpenTelemetryProtocol,->1.9.0
+OpenTelemetry.Contrib.Extensions.AWSXRay,->1.2.0
+OpenTelemetry.Exporter.Console,->1.9.0
+OpenTelemetry.Exporter.Zipkin,->1.9.0
+OpenTelemetry,->1.9.0
+OpenTelemetry.Extensions.Hosting,->1.9.0
+OpenTelemetry.Contrib.Instrumentation.AWS,->1.0.2
+OpenTelemetry.Instrumentation.Http,->1.9.0
+OpenTelemetry.Instrumentation.Runtime,->1.9.0
+OpenTelemetry.Instrumentation.AspNetCore,->1.9.0
+Swashbuckle.AspNetCore.SwaggerUI,->6.9.0
+Microsoft.AspNetCore.ApiAuthorization.IdentityServer,->7.0.20
+Microsoft.AspNetCore.Identity.UI,->8.0.8
+Microsoft.AspNetCore.SpaServices.Extensions,->8.0.8
+Microsoft.Extensions.Logging.Debug,->8.0.1
+Microsoft.AspNetCore.Mvc.NewtonsoftJson,->8.0.8
+Swashbuckle.AspNetCore.SwaggerGen,->6.8.0
+Swashbuckle.AspNetCore.Swagger,->6.8.0
+Microsoft.EntityFrameworkCore.Tools,->8.0.8
+FluentValidation.AspNetCore,->11.3.0
+Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore,->8.0.8
+Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore,->8.0.10
+---------------------------
+Action packages:
+---------------------------
+---------------------------
+Executed Actions for file: Project
+---------------------------
+
+Action Type: ProjectFile
+Action Name: MigrateProjectFile
+Action Value: 
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+
+----------------------
+Showing results for: /tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/sourceCode/src/Persistence/Persistence.csproj
+----------------------
+---------------------------
+Target Versions:
+---------------------------
+net8.0
+---------------------------
+Source Versions:
+---------------------------
+net48
+---------------------------
+Upgrade packages:
+---------------------------
+Swashbuckle.AspNetCore.SwaggerUI,->6.9.0
+Microsoft.EntityFrameworkCore.Design,->8.0.8
+Microsoft.EntityFrameworkCore.SqlServer,->8.0.8
+Microsoft.Extensions.Configuration.FileExtensions,->8.0.1
+Microsoft.Extensions.DependencyInjection.Abstractions,->8.0.1
+Microsoft.Extensions.Configuration.Json,->8.0.0
+Microsoft.Extensions.Configuration.EnvironmentVariables,->8.0.0
+---------------------------
+Action packages:
+---------------------------
+---------------------------
+Executed Actions for file: Project
+---------------------------
+
+Action Type: ProjectFile
+Action Name: MigrateProjectFile
+Action Value: 
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+
+----------------------
+Showing results for: /tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/sourceCode/src/Application/Application.csproj
+----------------------
+---------------------------
+Target Versions:
+---------------------------
+net8.0
+---------------------------
+Source Versions:
+---------------------------
+net48
+---------------------------
+Upgrade packages:
+---------------------------
+Swashbuckle.AspNetCore.SwaggerUI,->6.9.0
+MediatR,->12.4.1
+AutoMapper.Extensions.Microsoft.DependencyInjection,->12.0.1
+Microsoft.Extensions.Logging.Abstractions,->8.0.1
+Microsoft.EntityFrameworkCore,->8.0.8
+AutoMapper,->13.0.1
+FluentValidation,->11.10.0
+MediatR.Extensions.Microsoft.DependencyInjection,->11.1.0
+---------------------------
+Action packages:
+---------------------------
+---------------------------
+Executed Actions for file: Project
+---------------------------
+
+Action Type: ProjectFile
+Action Name: MigrateProjectFile
+Action Value: 
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+
+----------------------
+Showing results for: /tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/sourceCode/src/Tests/Persistence.IntegrationTests/Persistence.IntegrationTests.csproj
+----------------------
+---------------------------
+Target Versions:
+---------------------------
+net8.0
+---------------------------
+Source Versions:
+---------------------------
+net48
+---------------------------
+Upgrade packages:
+---------------------------
+Swashbuckle.AspNetCore.SwaggerUI,->6.9.0
+xunit,->2.4.2
+Microsoft.EntityFrameworkCore.InMemory,->8.0.8
+xunit.runner.visualstudio,->2.8.2
+Moq,->4.20.72
+Microsoft.NET.Test.Sdk,->17.11.1
+Shouldly,->4.2.1
+coverlet.collector,->6.0.2
+---------------------------
+Action packages:
+---------------------------
+---------------------------
+Executed Actions for file: Project
+---------------------------
+
+Action Type: ProjectFile
+Action Name: MigrateProjectFile
+Action Value: 
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+
+----------------------
+Showing results for: /tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/sourceCode/src/WebUI/WebUI.csproj
+----------------------
+---------------------------
+Target Versions:
+---------------------------
+net8.0
+---------------------------
+Source Versions:
+---------------------------
+net48
+---------------------------
+Upgrade packages:
+---------------------------
+OpenTelemetry.Exporter.OpenTelemetryProtocol,->1.9.0
+OpenTelemetry.Contrib.Extensions.AWSXRay,->1.2.0
+OpenTelemetry.Exporter.Console,->1.9.0
+OpenTelemetry.Exporter.Zipkin,->1.9.0
+OpenTelemetry,->1.9.0
+OpenTelemetry.Extensions.Hosting,->1.9.0
+OpenTelemetry.Contrib.Instrumentation.AWS,->1.0.2
+OpenTelemetry.Instrumentation.Http,->1.9.0
+OpenTelemetry.Instrumentation.Runtime,->1.9.0
+OpenTelemetry.Instrumentation.AspNetCore,->1.9.0
+Swashbuckle.AspNetCore.SwaggerUI,->6.9.0
+Microsoft.AspNetCore.ApiAuthorization.IdentityServer,->7.0.20
+Microsoft.AspNetCore.Identity.UI,->8.0.8
+Microsoft.AspNetCore.SpaServices.Extensions,->8.0.8
+Microsoft.Extensions.Logging.Debug,->8.0.1
+Microsoft.AspNetCore.Mvc.NewtonsoftJson,->8.0.8
+Swashbuckle.AspNetCore.SwaggerGen,->6.8.0
+Swashbuckle.AspNetCore.Swagger,->6.8.0
+Microsoft.EntityFrameworkCore.Tools,->8.0.8
+FluentValidation.AspNetCore,->11.3.0
+Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore,->8.0.8
+Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore,->8.0.10
+---------------------------
+Action packages:
+---------------------------
+---------------------------
+Executed Actions for file: Project
+---------------------------
+
+Action Type: ProjectFile
+Action Name: MigrateProjectFile
+Action Value: 
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+
+----------------------
+Showing results for: /tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/sourceCode/src/Application/Application.csproj
+----------------------
+---------------------------
+Target Versions:
+---------------------------
+net8.0
+---------------------------
+Source Versions:
+---------------------------
+net48
+---------------------------
+Upgrade packages:
+---------------------------
+Swashbuckle.AspNetCore.SwaggerUI,->6.9.0
+MediatR,->12.4.1
+AutoMapper.Extensions.Microsoft.DependencyInjection,->12.0.1
+Microsoft.Extensions.Logging.Abstractions,->8.0.1
+Microsoft.EntityFrameworkCore,->8.0.8
+AutoMapper,->13.0.1
+FluentValidation,->11.10.0
+MediatR.Extensions.Microsoft.DependencyInjection,->11.1.0
+---------------------------
+Action packages:
+---------------------------
+---------------------------
+Executed Actions for file: Project
+---------------------------
+
+Action Type: ProjectFile
+Action Name: MigrateProjectFile
+Action Value: 
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+
+----------------------
+Showing results for: /tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/sourceCode/src/Tests/Domain.UnitTests/Domain.UnitTests.csproj
+----------------------
+---------------------------
+Target Versions:
+---------------------------
+net8.0
+---------------------------
+Source Versions:
+---------------------------
+net48
+---------------------------
+Upgrade packages:
+---------------------------
+Swashbuckle.AspNetCore.SwaggerUI,->6.9.0
+xunit,->2.4.2
+xunit.runner.visualstudio,->2.8.2
+Microsoft.NET.Test.Sdk,->17.11.1
+---------------------------
+Action packages:
+---------------------------
+---------------------------
+Executed Actions for file: Project
+---------------------------
+
+Action Type: ProjectFile
+Action Name: MigrateProjectFile
+Action Value: 
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+
+----------------------
+Showing results for: /tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/sourceCode/src/Persistence/Persistence.csproj
+----------------------
+---------------------------
+Target Versions:
+---------------------------
+net8.0
+---------------------------
+Source Versions:
+---------------------------
+net48
+---------------------------
+Upgrade packages:
+---------------------------
+Swashbuckle.AspNetCore.SwaggerUI,->6.9.0
+Microsoft.EntityFrameworkCore.Design,->8.0.8
+Microsoft.EntityFrameworkCore.SqlServer,->8.0.8
+Microsoft.Extensions.Configuration.FileExtensions,->8.0.1
+Microsoft.Extensions.DependencyInjection.Abstractions,->8.0.1
+Microsoft.Extensions.Configuration.Json,->8.0.0
+Microsoft.Extensions.Configuration.EnvironmentVariables,->8.0.0
+---------------------------
+Action packages:
+---------------------------
+---------------------------
+Executed Actions for file: Project
+---------------------------
+
+Action Type: ProjectFile
+Action Name: MigrateProjectFile
+Action Value: 
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+
+----------------------
+Showing results for: /tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/sourceCode/src/Domain/Domain.csproj
+----------------------
+---------------------------
+Target Versions:
+---------------------------
+net8.0
+---------------------------
+Source Versions:
+---------------------------
+net48
+---------------------------
+Upgrade packages:
+---------------------------
+Swashbuckle.AspNetCore.SwaggerUI,->6.9.0
+---------------------------
+Action packages:
+---------------------------
+---------------------------
+Executed Actions for file: Project
+---------------------------
+
+Action Type: ProjectFile
+Action Name: MigrateProjectFile
+Action Value: 
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+
+----------------------
+Showing results for: /tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/sourceCode/src/Tests/Application.UnitTests/Application.UnitTests.csproj
+----------------------
+---------------------------
+Target Versions:
+---------------------------
+net8.0
+---------------------------
+Source Versions:
+---------------------------
+net48
+---------------------------
+Upgrade packages:
+---------------------------
+Swashbuckle.AspNetCore.SwaggerUI,->6.9.0
+xunit,->2.4.2
+Microsoft.EntityFrameworkCore.InMemory,->8.0.8
+xunit.runner.visualstudio,->2.8.2
+Moq,->4.20.72
+Microsoft.NET.Test.Sdk,->17.11.1
+Shouldly,->4.2.1
+---------------------------
+Action packages:
+---------------------------
+---------------------------
+Executed Actions for file: Project
+---------------------------
+
+Action Type: ProjectFile
+Action Name: MigrateProjectFile
+Action Value: 
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+
+----------------------
+Showing results for: /tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/sourceCode/src/Tests/WebUI.IntegrationTests/WebUI.IntegrationTests.csproj
+----------------------
+---------------------------
+Target Versions:
+---------------------------
+net8.0
+---------------------------
+Source Versions:
+---------------------------
+net48
+---------------------------
+Upgrade packages:
+---------------------------
+Swashbuckle.AspNetCore.SwaggerUI,->6.9.0
+xunit,->2.4.2
+Microsoft.EntityFrameworkCore.InMemory,->8.0.8
+xunit.runner.visualstudio,->2.8.2
+Microsoft.NET.Test.Sdk,->17.11.1
+Microsoft.AspNetCore.Mvc.Testing,->8.0.8
+---------------------------
+Action packages:
+---------------------------
+---------------------------
+Executed Actions for file: Project
+---------------------------
+
+Action Type: ProjectFile
+Action Name: MigrateProjectFile
+Action Value: 
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+
+----------------------
+Showing results for: /tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/sourceCode/src/Infrastructure/Infrastructure.csproj
+----------------------
+---------------------------
+Target Versions:
+---------------------------
+net8.0
+---------------------------
+Source Versions:
+---------------------------
+net48
+---------------------------
+Upgrade packages:
+---------------------------
+Swashbuckle.AspNetCore.SwaggerUI,->6.9.0
+Microsoft.AspNetCore.ApiAuthorization.IdentityServer,->7.0.20
+CsvHelper,->33.0.1
+Microsoft.AspNetCore.Identity.EntityFrameworkCore,->8.0.8
+Microsoft.EntityFrameworkCore.Design,->8.0.8
+Microsoft.EntityFrameworkCore.SqlServer,->8.0.8
+---------------------------
+Action packages:
+---------------------------
+---------------------------
+Executed Actions for file: Project
+---------------------------
+
+Action Type: ProjectFile
+Action Name: MigrateProjectFile
+Action Value: 
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+
+----------------------
+Showing results for: /tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/sourceCode/src/Common/Common.csproj
+----------------------
+---------------------------
+Target Versions:
+---------------------------
+net8.0
+---------------------------
+Source Versions:
+---------------------------
+net48
+---------------------------
+Upgrade packages:
+---------------------------
+Swashbuckle.AspNetCore.SwaggerUI,->6.9.0
+---------------------------
+Action packages:
+---------------------------
+---------------------------
+Executed Actions for file: Project
+---------------------------
+
+Action Type: ProjectFile
+Action Name: MigrateProjectFile
+Action Value: 
+Times Run: 1
+Executions With Error: 0
+Invalid Executions: 0
+
+
+
+===========
+BuildErrors
+===========
+
+
