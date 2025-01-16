@@ -1,4 +1,4 @@
-﻿using MediatR;
+using MediatR;
 using Northwind.Application.Common.Exceptions;
 using Northwind.Application.Common.Interfaces;
 using Northwind.Domain.Entities;
@@ -8,16 +8,16 @@ using System.Threading.Tasks;
 
 namespace Northwind.Application.Customers.Commands.DeleteCustomer
 {
-    public class DeleteCustomerCommandHandler : IRequestHandler<DeleteCustomerCommand>
+public class DeleteCustomerCommandHandler : IRequestHandler<DeleteCustomerCommand, Unit>
+{
+    private readonly INorthwindDbContext _context;
+
+    public DeleteCustomerCommandHandler(INorthwindDbContext context)
     {
-        private readonly INorthwindDbContext _context;
+        _context = context;
+    }
 
-        public DeleteCustomerCommandHandler(INorthwindDbContext context)
-        {
-            _context = context;
-        }
-
-        public async Task<Unit> Handle(DeleteCustomerCommand request, CancellationToken cancellationToken)
+    public async Task<Unit> Handle(DeleteCustomerCommand request, CancellationToken cancellationToken)
         {
             var entity = await _context.Customers
                 .FindAsync(request.Id);
