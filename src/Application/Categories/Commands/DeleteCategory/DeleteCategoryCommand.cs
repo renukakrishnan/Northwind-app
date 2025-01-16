@@ -1,4 +1,4 @@
-﻿using MediatR;
+using MediatR;
 using Northwind.Application.Common.Exceptions;
 using Northwind.Application.Common.Interfaces;
 using Northwind.Domain.Entities;
@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace Northwind.Application.Categories.Commands.DeleteCategory
 {
-    public class DeleteCategoryCommand : IRequest
+    public class DeleteCategoryCommand : IRequest<Unit>
     {
         public int Id { get; set; }
 
-        public class DeleteCategoryCommandHandler : IRequestHandler<DeleteCategoryCommand>
+        public class DeleteCategoryCommandHandler : IRequestHandler<DeleteCategoryCommand, Unit>
         {
             private readonly INorthwindDbContext _context;
 
