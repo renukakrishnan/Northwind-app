@@ -1,4 +1,4 @@
-﻿using MediatR;
+using MediatR;
 using Northwind.Application.Common.Interfaces;
 using Northwind.Domain.Entities;
 using System.Threading;
@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Northwind.Application.Customers.Commands.CreateCustomer
 {
-    public class CreateCustomerCommand : IRequest
+    public class CreateCustomerCommand : IRequest<Unit>
     {
         public string Id { get; set; }
 
@@ -30,7 +30,7 @@ namespace Northwind.Application.Customers.Commands.CreateCustomer
 
         public string Region { get; set; }
 
-        public class Handler : IRequestHandler<CreateCustomerCommand>
+        public class Handler : IRequestHandler<CreateCustomerCommand, Unit>
         {
             private readonly INorthwindDbContext _context;
             private readonly IMediator _mediator;
