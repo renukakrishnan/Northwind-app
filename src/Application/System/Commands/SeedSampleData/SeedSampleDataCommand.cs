@@ -1,4 +1,4 @@
-﻿using MediatR;
+using MediatR;
 using Northwind.Application.Common.Interfaces;
 using Northwind.Persistence;
 using System.Threading;
@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Northwind.Application.System.Commands.SeedSampleData
 {
-    public class SeedSampleDataCommand : IRequest
+    public class SeedSampleDataCommand : IRequest<Unit>
     {
     }
 
-    public class SeedSampleDataCommandHandler : IRequestHandler<SeedSampleDataCommand>
+    public class SeedSampleDataCommandHandler : IRequestHandler<SeedSampleDataCommand, Unit>
     {
         private readonly INorthwindDbContext _context;
         private readonly IUserManager _userManager;
