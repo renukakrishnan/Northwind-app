@@ -1,4 +1,4 @@
-﻿using MediatR;
+using MediatR;
 using Northwind.Application.Common.Exceptions;
 using Northwind.Application.Common.Interfaces;
 using Northwind.Domain.Entities;
@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace Northwind.Application.Employees.Commands.DeleteEmployee
 {
-    public class DeleteEmployeeCommand : IRequest
+    public class DeleteEmployeeCommand : IRequest<Unit>
     {
         public int Id { get; set; }
 
-        public class DeleteEmployeeCommandHandler : IRequestHandler<DeleteEmployeeCommand>
+        public class DeleteEmployeeCommandHandler : IRequestHandler<DeleteEmployeeCommand, Unit>
         {
             private readonly INorthwindDbContext _context;
             private readonly IUserManager _userManager;
