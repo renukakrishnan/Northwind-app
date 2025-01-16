@@ -1,4 +1,4 @@
-﻿using MediatR;
+using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Northwind.Application.Common.Exceptions;
 using Northwind.Application.Common.Interfaces;
@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Northwind.Application.Customers.Commands.UpdateCustomer
 {
-    public class UpdateCustomerCommand : IRequest
+    public class UpdateCustomerCommand : IRequest<Unit>
     {
         public string Id { get; set; }
         public string Address { get; set; }
@@ -22,7 +22,7 @@ namespace Northwind.Application.Customers.Commands.UpdateCustomer
         public string PostalCode { get; set; }
         public string Region { get; set; }
 
-        public class Handler : IRequestHandler<UpdateCustomerCommand>
+        public class Handler : IRequestHandler<UpdateCustomerCommand, Unit>
         {
             private readonly INorthwindDbContext _context;
 
@@ -50,6 +50,7 @@ namespace Northwind.Application.Customers.Commands.UpdateCustomer
                 entity.Fax = request.Fax;
                 entity.Phone = request.Phone;
                 entity.PostalCode = request.PostalCode;
+                entity.Region = request.Region;
 
                 await _context.SaveChangesAsync(cancellationToken);
 
